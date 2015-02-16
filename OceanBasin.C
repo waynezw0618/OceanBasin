@@ -125,6 +125,8 @@ OceanBasin::OceanBasin(volVectorField& U)
                 ),
     OrgVolume_(Lx_*waveD_*Lx_)
 {
+    
+    Info << "git test" <<endl;
     //- wave parameters
    /* waveH_ = waveProperties.lookup("waveH");
     waveT_ = waveProperties.lookup("waveT");
